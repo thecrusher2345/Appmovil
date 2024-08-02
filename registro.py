@@ -19,7 +19,7 @@ class RegisterScreen(Screen):
         register_button = Button(text='Create Account', on_release=self.register)
         back_button = Button(text='Back to Login', on_release=self.go_to_login)
 
-        layout.add_widget(Label(text='Register'))
+        layout.add_widget(Label(text='Registra tu usuario'))
         layout.add_widget(self.username)
         layout.add_widget(self.password)
         layout.add_widget(self.camera)
